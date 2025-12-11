@@ -108,7 +108,7 @@ label {
 
 
 # LOAD MODEL
-model = joblib.load("oil_filter_model_extended.pkl")
+model = joblib.load("oil_filter_model.pkl")
 
 # SIDEBAR NAVIGATION
 st.sidebar.markdown("<p class='sidebar-title'>📁 Navigation</p>", unsafe_allow_html=True)

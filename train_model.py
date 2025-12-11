@@ -262,5 +262,5 @@ if __name__ == "__main__":
     print("\nConfusion matrix:\n", confusion_matrix(y_test, y_pred))
     
     # 7. Save model
-    joblib.dump(pipeline, "oil_filter_model_extended.pkl")
-    print("\nSaved model: oil_filter_model_extended.pkl")
+    joblib.dump(pipeline, "oil_filter_model.pkl")
+    print("\nSaved model: oil_filter_model.pkl")
